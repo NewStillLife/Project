@@ -1,0 +1,28 @@
+/* BEGIN (write your solution here) */
+@font-face {
+    font-family: Brygada;
+    src: url(../assets/fonts/Brygada-1918.woff2) format(woff2);
+  }
+  
+  @font-face {
+    font-family: OpenSans;
+    font-weight: normal;
+    src: url(../assets/fonts/OpenSans-Regular.woff2) format(woff2);
+  }
+  
+  @font-face {
+    font-family: OpenSans;
+    font-weight: bold;
+    src: url(../assets/fonts/OpenSans-Bold.woff2) format(woff2);
+  }
+  
+  body {
+    font: 16px/2.3 OpenSans, sans-serif;
+  }
+  
+  .d-flex{
+    display: flex;
+    width: 1280px;
+  }
+  /* END */
+  

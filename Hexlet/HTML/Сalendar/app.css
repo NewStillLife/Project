@@ -1,0 +1,91 @@
+/* BEGIN (write your solution here) */
+@font-face {
+    font-family: Rubik;
+    font-weight: normal;
+    src: url("../assets/fonts/Rubik-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: Rubik;
+    font-weight: bold;
+    src: url("../assets/fonts/Rubik-Bold.woff2") format("woff2");
+  }
+  
+  /* END */
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  
+    /* BEGIN (write your solution here) */
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #e5e5e5;
+    font-family: Rubik, monospace;
+  
+    /* END */
+  }
+  
+  /* BEGIN (write your solution here) */
+  .calendar {
+    width: 250px;
+    padding: 60px 60px 30px;
+    background-color: #1e1f25;
+    border-radius: 12px;
+  }
+  
+  h2 {
+    margin: 0 0 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .calendar-header {
+    text-align: center;
+  }
+  
+  .calendar-date {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 2;
+    border-bottom: 1px solid #313131;
+  }
+  
+  td {
+    color: #ccc;
+    text-align: center;
+    padding: 0;
+    line-height: 2.3;
+  }
+  
+  .calendar-todo {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .todo-name {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .todo-time {
+    color: #ccc;
+    font-size: 10px;
+  }
+  
+  /* END */
+  
+  .rounded-green {
+    color: #fff;
+  
+    background: #589c5f;
+    border-radius: 50%;
+  }
+  
